@@ -12,3 +12,7 @@ Examples
 Notes
 You can assume numbers and punctuation symbols won't be included in test cases. You'll only have to deal with single word alphanumeric characters. */
 
+//Solution
+function AlphabetSoup(str) {
+    return str.split("").sort().join("");
+  }
